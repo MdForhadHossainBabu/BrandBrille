@@ -1,18 +1,20 @@
+@import url('https://use.typekit.net/your-kit-id.css');
+@import url('https://fonts.googleapis.com/css2?family=Aeonik&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-.react-player video{
-object-fit: cover;
-height: 100%;
-width: 100%;
+.react-player video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .player-wrapper {
   position: relative;
-  padding-top: 56.25%;  
-  
+  padding-top: 56.25%;
 }
 
 .react-player {
@@ -20,4 +22,41 @@ width: 100%;
   top: 0;
   left: 0;
   right: 0;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+[class^='number-slide'],
+[class*=' number-slide'] {
+  border: 1px solid tan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 300px;
+}
+
+
+
+.dot:focus {
+  outline: none;
+  background: rgb(255, 75, 64);
+  background: linear-gradient(
+    128deg,
+    rgba(255, 154, 63, 1) 0%,
+    rgba(255, 75, 64, 1) 100%
+  );
+}
+
+
+.dot.active {
+  background: #EBCEB5;
+}
+.dot {
+  background: #483729;
+}
+
+.arrow--disabled {
+  fill: rgba(225, 168, 168, 0.54);
 }

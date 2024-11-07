@@ -1,0 +1,74 @@
+[
+  {
+    "content": "Leading the company with innovative solutions and strategic growth.",
+    "image": "https://example.com/images/person1.jpg",
+    "name": "John Smith",
+    "role": "Founder & CEO"
+  },
+  {
+    "content": "Overseeing day-to-day operations and ensuring product quality.",
+    "image": "https://example.com/images/person2.jpg",
+    "name": "Jane Doe",
+    "role": "Chief Operating Officer"
+  },
+  {
+    "content": "Developing cutting-edge technology and maintaining system architecture.",
+    "image": "https://example.com/images/person3.jpg",
+    "name": "Mike Johnson",
+    "role": "Chief Technology Officer"
+  },
+  {
+    "content": "Creating strategies for market expansion and partnerships.",
+    "image": "https://example.com/images/person4.jpg",
+    "name": "Emily Davis",
+    "role": "Chief Marketing Officer"
+  },
+  {
+    "content": "Ensuring financial stability and managing investments.",
+    "image": "https://example.com/images/person5.jpg",
+    "name": "Robert Brown",
+    "role": "Chief Financial Officer"
+  },
+  {
+    "content": "Building and leading a top-tier design team.",
+    "image": "https://example.com/images/person6.jpg",
+    "name": "Sophia Wilson",
+    "role": "Head of Design"
+  },
+  {
+    "content": "Driving sales growth and enhancing client relationships.",
+    "image": "https://example.com/images/person7.jpg",
+    "name": "David Martinez",
+    "role": "Vice President of Sales"
+  },
+  {
+    "content": "Managing the overall human resources functions.",
+    "image": "https://example.com/images/person8.jpg",
+    "name": "Olivia Taylor",
+    "role": "Head of Human Resources"
+  },
+  {
+    "content": "Leading software development and engineering projects.",
+    "image": "https://example.com/images/person9.jpg",
+    "name": "James Lee",
+    "role": "Lead Software Engineer"
+  },
+  {
+    "content": "Ensuring seamless user experience and customer satisfaction.",
+    "image": "https://example.com/images/person10.jpg",
+    "name": "Ava White",
+    "role": "Customer Experience Manager"
+  },
+  {
+    "content": "Planning and executing comprehensive digital campaigns.",
+    "image": "https://example.com/images/person11.jpg",
+    "name": "Liam Walker",
+    "role": "Digital Marketing Manager"
+  },
+  {
+    "content": "Supervising video content production and editing.",
+    "image": "https://example.com/images/person12.jpg",
+    "name": "Mia Harris",
+    "role": "Video Production Head"
+  }
+]
