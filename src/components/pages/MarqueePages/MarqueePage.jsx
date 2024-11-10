@@ -2,7 +2,7 @@
 import bg from '/public/marquee.MP4';
 import profile from '/public/Hossain.PNG'
 import { useEffect, useState } from 'react';
-import Marquee from 'react-fast-marquee';
+import Marquee from 'react-fast-marquee'
 
 
 export const MarqueePage = () => {

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { HiMiniXMark } from 'react-icons/hi2';
+import arrowAngle from '/public/navItem.svg'
 
 export const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,9 +58,59 @@ export const BurgerMenu = () => {
         }  fixed w-full h-full bg-white z-40`}
       >
         {isOpen && (
-          <div className="text-black p-8 flex justify-center items-center h-full">
-            <h1 className="text-4xl">Menu Content</h1>
-            {/* Add additional menu items as needed */}
+          <div className="text-black p-24 h-full grid grid-cols-2 mx-auto">
+            <div className="mx-auto w-full px-16">
+              <ul className="flex flex-col justify-center gap-6 text-[40px] font-light text-[#000000]">
+                <li className="flex items-center gap-2 group">
+                  Domů{' '}
+                  <img
+                    className="group-hover:flex hidden transition-all duration-500 text-black"
+                    src={arrowAngle}
+                    alt=""
+                  />
+                </li>
+                <li className="flex items-center gap-2 group">
+                  O nás{' '}
+                  <img
+                    className="group-hover:flex hidden transition-all duration-500 fill-black"
+                    src={arrowAngle}
+                    alt=""
+                  />
+                </li>
+                <li className="flex items-center gap-2 group">
+                  Naše služby{' '}
+                  <img
+                    className="group-hover:flex hidden transition-all duration-500 fill-black"
+                    src={arrowAngle}
+                    alt=""
+                  />
+                </li>
+                <li className="flex items-center gap-2 group">
+                  Naši klienti{' '}
+                  <img
+                    className="group-hover:flex hidden transition-all duration-500 fill-black"
+                    src={arrowAngle}
+                    alt=""
+                  />
+                </li>
+                <li className="flex items-center gap-2 group">
+                  Kontakt{' '}
+                  <img
+                    className="group-hover:flex hidden transition-all duration-500 fill-black"
+                    src={arrowAngle}
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+            <div className="mx-auto mt-48 flex flex-col justify-center">
+              <h6 className="text-sm text-[#757575]">BrandBrillé</h6>
+              <div className="mt-24 space-y-5 flex flex-col">
+                <a className='underline text-sm text-[#757575]' href="info@brandbrille.cz">info@brandbrille.cz</a>
+                <a className=' text-sm text-[#757575]' href="www.instagram.com">Instagram</a>
+                <a className=' text-sm text-[#757575]' href="www.linkedin.com">LinkedIn</a>
+              </div>
+            </div>
           </div>
         )}
       </motion.div>

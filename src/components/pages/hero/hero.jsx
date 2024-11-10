@@ -26,7 +26,7 @@ export const Hero = () => {
           </h1>
         </div>
         {/* animate button */}
-        <div className="pt-9 absolute bottom-64">
+        <div className="pt-9 absolute bottom-8">
           <AnimatedButton1 />
         </div>
       </div>

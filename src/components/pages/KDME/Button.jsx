@@ -17,14 +17,14 @@ const Button = () => {
     gsap.to([textRef.current, arrowRef.current], {
       color: '#000', // Change text color to black on hover
       filter: 'brightness(0)', // Change image to black
-      duration: 0.3, // Duration of color change
+      duration: 0.4, // Duration of color change
     });
   };
 
   const handleHoverEnd = () => {
     gsap.to(ballRef.current, {
       scale: 0, // Shrinks the ball back to original size
-      duration: 1, // Match the scale-down duration
+      duration: 0.5, // Match the scale-down duration
       ease: 'power3.out',
     });
     gsap.to([textRef.current, arrowRef.current], {

@@ -91,8 +91,8 @@ function Arrow({ left, onClick, disabled }) {
       onClick={onClick}
       className={`w-5 h-7 absolute fill-[#EBCEB5] ${
         left
-          ? 'lg:left-[29rem] left-[9rem] -bottom-16'
-          : 'lg:right-[29rem] right-[9rem] -bottom-16'
+          ? 'lg:left-[22rem] left-[9rem] -bottom-16'
+          : 'lg:right-[22rem] right-[9rem] -bottom-16'
       } ${arrowClass}`}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
